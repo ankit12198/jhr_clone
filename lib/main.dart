@@ -16,6 +16,7 @@ class HomeScreen extends StatelessWidget {
       title: 'Splash Demo',
       // The first widget displayed is the SplashScreen
       home: SplashScreen(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
